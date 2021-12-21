@@ -1,4 +1,6 @@
 // this file has all the graphql request to graphcms to get the data for the webpage
+// you are also able to create these queries via graphcms website
+
 
 import { request, gql } from 'graphql-request';
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;

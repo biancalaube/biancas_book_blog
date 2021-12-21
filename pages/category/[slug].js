@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { getCategories, getCategoryPost } from '../../services';
 import { PostCard, Categories, Loader } from '../../components';
 
-//creates the widgets to the side of the article
+// loads all the posts for a certain category
 const CategoryPost = ({ posts }) => {
   const router = useRouter();
 
@@ -12,6 +12,8 @@ const CategoryPost = ({ posts }) => {
     return <Loader />;
   }
 
+
+  console.log(posts);
   return (
     <div className="container mx-auto px-10 mb-8">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
