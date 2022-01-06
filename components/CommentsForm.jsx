@@ -7,7 +7,6 @@ const CommentsForm = ({slug}) => {
     const [localStorage, setLocalStorage] = useState(null);
     const [showSuccessMessage, setShowSuccessMessage] = useState(false);
     //useRef creates a direct reference to the value stored in the DOM
-    // just updating this comment so it works i think
     const commentEl = useRef();
     const nameEl = useRef();
     const emailEl = useRef();
