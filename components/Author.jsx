@@ -2,6 +2,7 @@
 This component sets the author component on a the page that has one post 
 it included the authors picture, name and bio
 */
+//need something to push
 import React from 'react';
 import Image from 'next/image'; //is kinda like the Image tag but has more built in properties
 
